@@ -1,3 +1,4 @@
+#evita o acesso a outras pagina e redireciona sempre ao index
 RewriteEngine On
 RewriteCond ${REQUEST_FILENAME} !-f
 RewriteCond ${REQUEST_FILENAME} !-d
