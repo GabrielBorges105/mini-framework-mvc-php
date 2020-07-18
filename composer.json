@@ -1,0 +1,16 @@
+{
+    "name": "gabrielbigs105/mini-framework",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jean Borges",
+            "email": "cantanhede2000@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}

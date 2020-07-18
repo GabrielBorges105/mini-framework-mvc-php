@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond ${REQUEST_FILENAME} !-f
+RewriteCond ${REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [NC,L]
+
+#DESCOMENTAR ESSA LINHA QUANDO FOR SUBIR PRO SERVIDOR
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^/?(.*) https://${SERVER_NAME}/$1 [R,L]
+
+Options -indexes
